@@ -1,0 +1,51 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sidebar {
+    display: flex;
+    width: 250px;
+    height: 100%;
+    background-color: blue !important;
+    margin-right: auto;
+}
+
+#formContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    background-color: red !important;
+    border-radius: 1rem;
+    margin-right: auto;
+}
+
+#formContact label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 75px;
+    margin: auto;
+    background-color: white;
+}
+
+#formContact input {
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+}
+
+#formContact button {
+    width: 100px;
+    height: 75px;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+}
